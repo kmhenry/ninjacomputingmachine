@@ -12,7 +12,7 @@
     <%= f.input :password, autocomplete: "off", hint: "leave it blank if you don't want to change it", required: false, label: false, placeholder: "New password"  %>
     <%= f.input :password_confirmation, required: false, label: false, placeholder: "Confirm new password" %>
     <%= f.input :current_password, hint: "we need your current password to confirm your changes", required: true, label: false, placeholder: "Confirm current password for changes" %>
-    <%= f.button :submit, "Update" %>
+    <%= f.button :submit, "Update", class: "btn btn-primary" %>
 <% end %>
 
 <h3>Cancel my account</h3>
