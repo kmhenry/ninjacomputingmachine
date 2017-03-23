@@ -3,7 +3,7 @@
   <%= f.error_notification %>
     <h2>Forgot your password?</h2>
     <%= f.input :email, required: true, autofocus: true, label: false, placeholder: "Email to send reset instructions" %>
-    <%= f.button :submit, "Send me reset password instructions" %>
+    <%= f.button :submit, "Send me reset password instructions", class: "btn btn-primary" %>
 <% end %>
 
 <%= render "devise/shared/links" %>
