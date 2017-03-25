@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <%= link_to "NMH", root_path, class: "navbar-brand"%>
+      <%= link_to "<i class='fa fa-heartbeat'></i> NMH".html_safe, root_path, class: "navbar-brand"%>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -20,7 +20,7 @@
 
       <ul class="nav navbar-nav navbar-right">
         <% if current_user %>
-          <li><%= link_to "Profile", edit_user_registration_path %></li>
+          <li><%= link_to "<i class='fa fa-bars'></i> Profile".html_safe, edit_user_registration_path %></li>
           <li><%= link_to "Sign Out", destroy_user_session_path, method: :delete %></li>
         <% else %>
           <li><%= link_to "Login", new_user_session_path %></li>

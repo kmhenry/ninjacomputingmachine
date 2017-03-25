@@ -14,3 +14,15 @@
  *= require font-awesome
  *= require_self
  */
+
+.faq-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.faq {
+  background-color: red;
+  padding: 1px 10px 5px 10px;
+  margin-bottom: 3px;
+  border-radius: 15px;
+
+}
