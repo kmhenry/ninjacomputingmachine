@@ -1,3 +1,23 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.faq-container {
+  width: 70%;
+  margin: 0 auto;
+  a {
+    text-decoration: none;
+  }
+  a:link {
+    color: red;
+  }
+  a:visited {
+    color: red;
+  }
+  a:hover {
+    color: red;
+  }
+  a:active {
+    color: red;
+  }
+}
