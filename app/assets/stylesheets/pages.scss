@@ -21,3 +21,14 @@
     color: red;
   }
 }
+.c-form {
+  width: 640px;
+  height: 560px;
+  margin: 0 auto;
+  background-image: url('sunrise.jpg');
+  background-size: 640px 560px;
+  input[type="text"] {
+    background-color: red;
+    width: 320px;
+  }
+}
